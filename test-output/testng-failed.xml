@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utilities.ExtentReportmanager"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.TC001_RegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_Registration_Flow"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.TC001_RegistrationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
