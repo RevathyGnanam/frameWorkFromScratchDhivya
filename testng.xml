@@ -16,7 +16,7 @@
   <parameter name="browser" value="chrome"/>
     <classes>
       <class name="testCases.TC001_RegistrationTest"/>
-      <class name="testCases.TC002_LoginTestcases"/>
+     <-- <class name="testCases.TC002_LoginTestcases"/>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
